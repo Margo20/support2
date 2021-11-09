@@ -1,0 +1,16 @@
+Django==3.2.4
+celery==4.4.7
+Django==3.2.4
+flower==0.9.7
+redis==3.5.3
+pytest==6.2.4
+pytest-django==4.4.0
+
+djangorestframework==3.12.4
+djangorestframework-jsonapi==4.2.1
+
+djangorestframework-simplejwt==4.8.0
+simplejwt==2.0.1
+
+django-filter==2.4.0
+flake8==4.0.1

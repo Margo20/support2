@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Отправка писем</title>
+</head>
+<body>
+<form action="{% url 'contact' %}" method="post">
+    {% csrf_token %}
+    {{form.as_p}}
+    <button type="submit">Отправить</button>
+</form>
+<!--<h1>Отправка писем</h1>-->
+<!--<form method="post">-->
+<!--    {% csrf_token %}-->
+<!--    {{form.as_p}}-->
+<!--    <button type="submit">Отправить</button>-->
+<!--</form>-->
+
+</body>
+</html>
